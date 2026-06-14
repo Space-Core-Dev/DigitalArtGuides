@@ -53,7 +53,7 @@ Programs: Procreate • Adobe Photoshop • Adobe Fresco • Clip Studio Paint
 
 ---
 
-# 3. VISUAL DIAGRAM — Blend Mode Families
+# 3. BLEND MODE FAMILIES
 
 BLEND MODE FAMILIES
 ==============================================================
