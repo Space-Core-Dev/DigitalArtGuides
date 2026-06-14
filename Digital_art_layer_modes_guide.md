@@ -55,22 +55,49 @@ Programs: Procreate • Adobe Photoshop • Adobe Fresco • Clip Studio Paint
 
 # 3. VISUAL DIAGRAM — Blend Mode Families
 
-┌──────────────────────────┐
-│      BLEND MODES         │
-└────────────┬─────────────┘
-│
-┌───────────────────────┼────────────────────────┐
-│                       │                        │
-DARKEN GROUP          LIGHTEN GROUP            CONTRAST GROUP
-(Multiply, Burn)      (Screen, Add)          (Overlay, Soft Light)
-│                       │                        │
-│                       │                        │
-Shadows, AO          Highlights, Glow       Color grading, texture
-│                       │                        │
-└──────────────┬────────┴──────────────┬────────┘
-│                       │
-COLOR GROUP            SPECIAL MODES
-(Hue, Color, Sat)      (Difference, Exclusion)
+==================== BLEND MODE FAMILIES ====================
+
+BLEND MODES
+|
+|-- DARKEN GROUP
+|     Modes: Multiply, Burn
+|     Use: Shadows, Ambient Occlusion
+|
+|-- LIGHTEN GROUP
+|     Modes: Screen, Add
+|     Use: Highlights, Glow Effects
+|
+|-- CONTRAST GROUP
+|     Modes: Overlay, Soft Light
+|     Use: Color Grading, Texture Enhancement
+|
+|-- COLOR GROUP
+|     Modes: Hue, Color, Saturation
+|     Use: Color Manipulation
+|
+|-- SPECIAL MODES
+      Modes: Difference, Exclusion
+      Use: Stylized Effects
+
+===========================================================
+                     BLEND MODES
+===========================================================
+
+                     ┌──────────┐
+                     │  ROOT    │
+                     └────┬─────┘
+                          │
+   ---------------------------------------------------------
+   |                       |                               |
+ DARKEN GROUP        LIGHTEN GROUP                 CONTRAST GROUP
+ (Multiply, Burn)    (Screen, Add)                (Overlay, Soft Light)
+   |                       |                               |
+ Shadows, AO        Highlights, Glow              Color grading, texture
+   |                       |                               |
+   -------------------------                               |
+                          |                                |
+                     COLOR GROUP                    SPECIAL MODES
+                (Hue, Color, Sat)            (Difference, Exclusion)
 
 ---
 
